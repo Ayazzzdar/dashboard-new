@@ -179,7 +179,7 @@ Provide accurate Australian historical data in this exact JSON structure:
 
 {{
   "PrimeMinister": "Name of Australian PM serving in {year}",
-  "IncomingPM": "Name of PM who came into power in {year} (or empty string if no change)",
+  "IncomingPM": "Name of the PM who came to power AFTER the current PM (regardless of what year they took office)",
   "Monarch": "Name of British monarch in {year}",
   "AverageSalary": "VALUE ONLY e.g., $2,080",
   "Celebrity1": "Name - Description (NO DATES)",
